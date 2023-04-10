@@ -31,6 +31,7 @@ body{
 section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
+    border: .2rem solid var(--bg-color);
 }
 
 .header{
@@ -38,7 +39,7 @@ section{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 9%;
+    padding: 1rem 5% 1.3rem 5%;
     background: var(--bg-color);
     display: flex;
     justify-content: space-between;
@@ -47,7 +48,7 @@ section{
 }
 
 .logo{
-   font-size: 2.5rem;
+   font-size: 3rem;
    color: var(--text-color);
    font-weight: 600; 
    cursor:cell;
@@ -62,6 +63,24 @@ section{
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
+}
+
+button{
+    padding: auto;
+    margin: 0 0 0 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0.15rem 0.75rem 0 ;
+    background: var(--second-bg-color);
+    color: var(--main-color);
+    border-radius: 100%;
+    transition: .5s ease;
+    box-shadow: 0 0 0.5rem var(--main-color);
+}
+
+button:hover{
+    background: var(--main-color);
+    color: black;
 }
 
 .navbar a:hover,
@@ -134,7 +153,7 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
-    border-radius: 4rem;
+    border-radius: 10rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.5rem;
     color: var(--second-bg-color);
@@ -245,6 +264,8 @@ span{
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap: 2.5rem;
+    margin-bottom: 4rem;
+    
 }
 
 .portfolio-container .portfolio-box{
@@ -253,6 +274,7 @@ span{
     box-shadow: 0 0 1rem var(--main-color);
     overflow: hidden;
     display: flex;
+    border: .2rem solid var(--bg-color);
 }
 
 .portfolio-box img{
@@ -307,4 +329,85 @@ span{
 
 img{
     box-shadow: 0 0 1rem var(--main-color);
+}
+
+.contact h2{
+    margin-bottom: 3rem;
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    border: .2rem solid var(--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input:hover,.contact form textarea:hover{
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+
+.contact form .input-box input{
+    width :49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p{
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover{
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
 }
