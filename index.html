@@ -8,23 +8,27 @@
     <title>Deepanshu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark.css">
 </head>
 
 <body>
 
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo">DG</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
+            <a href="#education">About</a>
             <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
             <button onclick="light()"><i class='bx bx-bulb'></i></button>
+            <!-- <p class="joke">flash warning!!!</p> -->
         </nav>
     </header>
 
@@ -32,24 +36,106 @@
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Deepanshu Garg</h1>
-            <h3>And I'm a <span>Frontend Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat et amet eligendi. Facilis tempore quas
-                nisi aperiam, laudantium asperiores, illo earum ea, aliquid at quo. Accusantium, distinctio ad? Amet,
-                cumque?</p>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>As a Full-Stack developer with hands-on experience in MERN stack web development, and app development, I am eager to transition from academic success to the real-world challenges. With a strong work ethic, I seek opportunities to contribute my skills and passion to impactful projects, demonstrating my potential and dedication to making a difference in the industry.</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="www.linkedin.com/in/deepanshugarg27"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/deepanshu.garg_27/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/deepanshug1"><i class='bx bxl-github'></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="images\DeepanshuGarg_resumeworking.pdf" download="DeepanshuGarg_Resume" class="btn">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="images/im1.jpg" alt="me" height="550vh">
+            <img src="images/pc1.png" alt="me" >
         </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018 </div>
+                            <h3>BTech CSE - Bennett University</h3>
+                            <p>CGPA: 9.65 <br>
+                            Specialization: Full-Stack</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018 </div>
+                            <h3>High School - Dynasty International (CBSE)</h3>
+                            <p>Grade 10th : 94.2% <br>
+                                Grade 12th - 92.8% <br>
+                                JEE MAINS - 95 percentile</p>
+                        </div>
+                    </div>
+
+                    <h3 class="title">Extra Co-Curricular</h3>
+                    
+                    <div class="education-box"></div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018 </div>
+                            <h3>Swimming - District champion</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+
+                <div class="education-box">
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2023 - present </div>
+                            <h3>Web Developer Intern - CodSoft</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023 </div>
+                            <h3>Minister of Projects - SCSET BU</h3>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2022 - 2023 </div>
+                            <h3>Tech Co-head - FULLSTACK and ATC BU</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2021 - 23 </div>
+                            <h3>Campus Ambassador - Viral Fission</h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <section class="about" id="about">
         <div class="about-img">
             <img src="images/im1.jpg" alt="me" height="550vh">
         </div>
@@ -64,7 +150,7 @@
 
             <a href="#" class="btn">Read More</a>
         </div>
-    </section>
+    </section> -->
 
     <section class="skills" id="skills">
         <h2 class="heading">My <span>Skills</span></h2>
@@ -73,28 +159,22 @@
             <div class="skills-box">
                 <i class='bx bx-code-block'></i>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non excepturi laudantium, error vitae,
-                    incidunt eaque culpa quaerat doloribus assumenda maiores sequi officiis eligendi laborum nostrum
-                    corporis possimus, laboriosam molestias. Quidem placeat nisi incidunt at beatae fugit hic architecto
-                    adipisci aspernatur cum, eligendi nostrum vel? Animi beatae aut dolorem nesciunt aliquid!</p>
-                <a href="#" class="btn">Read More</a>
+                <p>As a proficient web developer, I create visually stunning and user-friendly websites. With expertise in HTML, CSS, and JavaScript along with experience in using MERN stack, I craft seamless user experiences and embrace the latest trends to deliver innovative digital solutions.</p>
+                <a href="https://github.com/deepanshug1" class="btn">GitHub</a>
+            </div>
+
+            <div class="skills-box">
+                <i class="fa fa-android"></i>
+                <h3>Android Development</h3>
+                <p>In the realm of Android development, I thrive on building feature-rich and intuitive mobile applications. Leveraging Java and Kotlin, I create engaging user interfaces and efficient functionalities, ensuring an exceptional user experience on the Android platform.</p>
+                <a href="https://github.com/deepanshug1" class="btn">GitHub</a>
             </div>
 
             <div class="skills-box">
                 <i class='bx bxs-megaphone'></i>
                 <h3>Public Speaking</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non excepturi laudantium, error vitae,
-                    incidunt eaque culpa quaerat doloribus assumenda maiores sequi officiis eligendi laborum nostrum
-                    corporis possimus, laboriosam molestias. Quidem placeat nisi incidunt at beatae fugit hic architecto
-                    adipisci aspernatur cum, eligendi nostrum vel? Animi beatae aut dolorem nesciunt aliquid!</p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            <div class="skills-box">
-                <i class="fa fa-android"></i>
-                <h3>Andr. Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt possimus rem culpa, explicabo fugiat atque exercitationem incidunt quasi. Aliquam ut provident fugiat culpa illo, a officiis eius dolorum fuga similique, architecto natus quaerat laudantium aspernatur neque laboriosam est inventore! Vero molestias repellat perferendis, minus ad explicabo accusantium quisquam.</p>
-                <a href="#" class="btn">Read More</a>
+                <p>My passion for public speaking shines through captivating presentations that leave a lasting impact. With honed communication skills and a confident stage presence, I engage and inspire audiences, making complex topics accessible and fostering meaningful connections. </p>
+                <a href="www.linkedin.com/in/deepanshugarg27" class="btn">LinkedIn</a>
             </div>
         </div>
     </section>
@@ -104,65 +184,102 @@
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="images/im2.jpg" alt="" height="300vh">
+                <img src="images\BU-Check.png" alt="" height="300vh">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, voluptatibus?</p>
-                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
                 </div>
             </div>
         
             <div class="portfolio-box">
-                <img src="images/im3.jpg" alt="" height="300vh">
+                <img src="images\hell's paradise.png" alt="" height="300vh">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, voluptatibus?</p>
-                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/im4.jpg" alt="" height="300vh">
+                <img src="images\SayHealth.png" alt="" height="300vh">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, voluptatibus?</p>
-                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/im4.jpg" alt="" height="300vh">
+                <img src="images\samurAI.png" alt="" height="300vh">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, voluptatibus?</p>
-                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
                 </div>
             </div>
 
             <div class="portfolio-box">
-                <img src="images/im2.jpg" alt="" height="300vh">
+                <img src="images\snowball.png" alt="" height="300vh">
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, voluptatibus?</p>
-                    <a href="#"><i class='bx bx-link-external'></i></i></a>
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
                 </div>
             </div>
+
+            <div class="portfolio-box">
+                <img src="images\Pysnake.png" alt="" height="300vh">
+                <div class="portfolio-layer">
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\photochop.png" alt="" height="300vh">
+                <div class="portfolio-layer">
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\codden.png" alt="" height="300vh">
+                <div class="portfolio-layer">
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images\homepage.png" alt="" height="300vh">
+                <div class="portfolio-layer">
+                    <h4>PROJECT</h4>
+                    <p>...</p>
+                    <a href="https://github.com/deepanshug1"><i class='bx bx-link-external proj'></i></i></a>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://formcarry.com/s/p3aeaSIM4z" method="POST" accept-charset="UTF-8">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="Name " placeholder="Full Name">
+                <input type="email" name="E-mail " placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="text" pattern="[0-9]{10}" placeholder="Mobile Number (10 digits)">
-                <input type="text" placeholder="Email Subject">
+                <input type="text" name="Contact no." pattern="[0-9]{10}" placeholder="Mobile Number (10 digits)">
+                <input type="text" name="Subject "placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea input type="text" name="Message " id="" cols="30" rows="10" name="Message " placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -177,6 +294,10 @@
         </span>
     </footer>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typing effect -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script src="js/script.js"></script>
 </body>
