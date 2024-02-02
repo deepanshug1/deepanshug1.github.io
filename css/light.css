@@ -13,11 +13,11 @@
 }
 
 :root{
-    --bg-color: #32afe8 ;
-    --second-bg-color: #58c8fd ;
+    --bg-color: #F4DFC8 ;
+    --second-bg-color: #F4EAE0 ;
     --text-color: black;
-    --main-color: #15516d;
-    --extra-color: white;
+    --main-color: #643843;
+    --extra-color: #FAF6F0;
 }
 
 html{
@@ -134,6 +134,20 @@ button:hover{
     justify-content: center;
     align-items: center;
 }
+
+
+#arrow{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 3.8rem;
+    right: 3.2rem;
+    z-index: 1000;
+    box-shadow: none;
+    rotate: 0deg;
+    height: 15rem;
+}
+
 
 .home-img{
     clip-path:circle();

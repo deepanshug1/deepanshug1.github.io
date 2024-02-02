@@ -13,10 +13,10 @@
 }
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: #272829;
+    --second-bg-color: #61677A;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #A6F0C6;
     --extra-color: #000;
 }
 
@@ -133,6 +133,10 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#arrow{
+    display: none;
 }
 
 .home-img{
